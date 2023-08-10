@@ -7,7 +7,9 @@ public class Player extends Character {
         this.role = role;
     }
 
-    
+    public String speak() {
+        return "Hello, I am " + super.name + ", and I am a " + this.role + "! Nice to meet you!";
+    }
 
 
 }

@@ -38,5 +38,8 @@ public class Main {
         Player p = new Player("Sussie", "Hampster");
         p.introduce();
         p.speak();
+
+        Character link = new Player("Link", "Main Character");
+        System.out.println(link.speak());
     }
 }
