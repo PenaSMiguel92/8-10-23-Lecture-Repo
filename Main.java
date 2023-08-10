@@ -41,5 +41,8 @@ public class Main {
 
         Character link = new Player("Link", "Main Character");
         System.out.println(link.speak());
+
+        Character char2 = new Character("Link");
+        System.out.println(char2.speak());
     }
 }
