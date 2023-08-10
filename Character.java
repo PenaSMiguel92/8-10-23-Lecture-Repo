@@ -5,5 +5,12 @@ public class Character {
         this.name = name;
     }
 
-    
+    public String speak() {
+        return "Hylian";
+    }
+
+    public String introduce() {
+        return "I am a character.";
+    }
+
 }
